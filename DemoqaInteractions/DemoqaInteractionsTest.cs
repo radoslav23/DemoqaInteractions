@@ -38,8 +38,8 @@ namespace DemoqaInteractions
                 screenshot.SaveAsFile(screenshotLocation + testName + ".png", ScreenshotImageFormat.Png);
             }
             driver.Close();
-        }        
-        
+        }
+
         [Test]
         public void DragElementTest()
         {
